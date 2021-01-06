@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    color: greenyellow;
     margin: 0%;
 }
 h1{
@@ -23,7 +24,7 @@ h2{
     margin-top: 10%;
 }
 .top{
-    background-image: url("Images/top-banner.png");
+    background-image: url("blackbg.jpg");
     background-repeat: no-repeat;
 }
 section{
@@ -44,9 +45,10 @@ section{
     width: 60%;
 }
 #jhamela{
-    background-image: url("Images/dream-bg.png");
+    background-image: url("blackbg.jpg");
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom:0;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
@@ -54,10 +56,59 @@ section{
     height: 80%;
     background-color: white;
 }
-.experience-area{
-    background-image: url("Images/exp-bg.png");
+.things-area{
+    text-align: center;
+    background-image: url("blackbg.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    padding-top:50px;
+}
+.things{
+    color: orange;
+}
+.things-area img{
+    height: 30%;
+    width: 30%;
+    text-align:justify;
+    display: block;
+    background-color: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+}
+#why{
+    background-color: white;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+#what{
+    background-color: white;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+#how{
+    background-color: white;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+.gpa {
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-left: 500px;
+    width: 30%;
+    text-align: center;
+    padding-right: 100px;
+}
+#button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, black, orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    float: right;
+
 }
 #full-stack{
     border-left: 7px solid;
